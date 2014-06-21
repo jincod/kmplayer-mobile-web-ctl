@@ -1,0 +1,89 @@
+body{
+	-webkit-touch-callout: none;
+	background-color: #000;
+}
+a.selected{
+	color: #2567AB !important;
+	text-shadow: 0 1px #fff;
+}
+.ui-header a{
+	text-decoration: none !important;
+}
+#player-title{
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.player-buttons a{
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff !important; /*hack*/
+	text-shadow: 0 -1px #000;
+	font-family: monospace;
+}
+.player-buttons>div:first-child a{
+	line-height: 100px;
+}
+.player-buttons a:hover{
+	color: #eee;
+}
+.player-buttons a:active{
+	text-shadow: 0 0 15px #fff;
+}
+.player-buttons a.play-button{
+	font-size: 60px;
+	text-indent: 10px;
+}
+.player-buttons a.pause-button {
+	text-indent: 10px;
+}
+#pause-button{
+	letter-spacing: -3px;
+	-webkit-transform: scaleX(.6);
+}
+#stop-button{
+	-webkit-transform: scaleX(1.6);
+}
+#prev-button, #next-button{
+	letter-spacing: -3px;
+	line-height: 40px;
+}
+#progress,
+#volume{
+	position: absolute;
+	left: -999px;
+}
+#player-info{
+	background-image: none;
+	background-color: rgba(0,0,0,.3);
+	border-bottom: 1px solid #666;
+}
+#player-progress{
+	text-align: center;
+	margin: 0 auto 10px;
+}
+#player-volume,
+#player-options{
+	margin: 15px auto 10px;
+}
+#player-progress,
+#player-volume{
+	width: 90%;
+}
+#progress-start{
+	text-align: left;
+}
+#progress-end{
+	text-align: right;
+}
+#player-progress .progress-info{
+	font-size: 90%;
+	opacity: .5;
+}
+.ui-slider-track{
+	margin: 0;
+	/*width: 100% !important;*/
+}

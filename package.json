@@ -1,0 +1,13 @@
+{
+  "name": "kmplayer-mobile-web-ctl",
+  "version": "0.0.1",
+  "description": "KMPlayer Mobile Web Control",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jincod/kmplayer-mobile-web-ctl.git"
+  },
+  "dependencies": {
+    "express": "^4.4.4",
+    "body-parser": "^1.4.3"
+  }
+}
