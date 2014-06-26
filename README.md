@@ -2,7 +2,7 @@
 
 This is a mobile web control interface for KMPlayer using WinLIRC.
 
-![KMPlayer Mobile Web Control](http://getcover.ru/upload/a/result/81d7cd333886edfafdf5196673587092/blob.png)
+![KMPlayer Mobile Web Control](https://dl.dropboxusercontent.com/u/61826147/kmplayer.png)
 
 ## Configure 
 
